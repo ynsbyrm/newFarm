@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "b766-6705-f7d9-9bdb",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.6",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "selectHousePage",
+				"parent": null,
+				"children": [
+					"8bac-118a-d298-b7e4",
+					"cc4d-6850-e86e-7bd7",
+					"52c7-6b6d-6c49-10a5"
+				],
+				"width": 281.25,
+				"height": 452.25
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "8bac-118a-d298-b7e4",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": true,
+				"name": "statusBar",
+				"parent": "b766-6705-f7d9-9bdb",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "cc4d-6850-e86e-7bd7",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "SELECT HOUSE",
+				"backgroundColor": "rgba( 105, 105, 105, 1 )"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "SELECT HOUSE",
+				"titleColor": "#000000",
+				"visible": true,
+				"backgroundColor": "rgba( 105, 105, 105, 1 )",
+				"name": "headerBar",
+				"parent": "b766-6705-f7d9-9bdb",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ListView",
+			"id": "52c7-6b6d-6c49-10a5",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"rowHeight": 122,
+				"itemCount": null,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".listView",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"multiline": false,
+				"rowHeight": 122,
+				"itemCount": null,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "lvHouses",
+				"parent": "b766-6705-f7d9-9bdb",
+				"children": []
+			}
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "ea45-566b-d997-4af9",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.6",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "flockDataPage",
+				"parent": null,
+				"children": [
+					"4891-d18e-ec43-0f9e",
+					"4741-cd46-ee53-482a",
+					"91c6-244c-e08a-241b"
+				],
+				"width": 281.25,
+				"height": 452.25
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "4891-d18e-ec43-0f9e",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": true,
+				"name": "statusBar",
+				"parent": "ea45-566b-d997-4af9",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "4741-cd46-ee53-482a",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "FLOCK DATA",
+				"backgroundColor": "rgba( 105, 105, 105, 1 )"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "FLOCK DATA",
+				"titleColor": "#000000",
+				"visible": true,
+				"backgroundColor": "rgba( 105, 105, 105, 1 )",
+				"name": "headerBar",
+				"parent": "ea45-566b-d997-4af9",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ListView",
+			"id": "91c6-244c-e08a-241b",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"rowHeight": 122,
+				"itemCount": null,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".listView",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"multiline": false,
+				"rowHeight": 122,
+				"itemCount": null,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "lvFlockData",
+				"parent": "ea45-566b-d997-4af9",
+				"children": []
+			}
+		}
+	]
+}
